@@ -2,6 +2,7 @@
     --accent-color: #2196F3;
     --color-title: #212121;
     --color-description: #757575;
+    --color-lead: #ffffff;
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 }
@@ -24,11 +25,14 @@ body {
 }
 
 .nav__list-link-item,
+.address__mail,
 .address__tel {
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    color: var(--color-description);
 }
 
 /*=============== END COMPONENTS ===============*/
@@ -53,16 +57,6 @@ body {
     color: #ffffff;
 }
 
-.address__mail,
-.address__tel {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.02em;
-    color: var(--color-description);
-}
-
 /*=============== END HEADER ===============*/
 
 /*=============== HERO ===============*/
@@ -70,13 +64,14 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
-    /*color: #FFFFFF;*/
+    /*color: var(--color-lead);*/
 }
 
 .button {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
+    /*color: var(--color-lead);*/
 }
 
 /*=============== END HERO ===============*/
@@ -133,7 +128,7 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--color-lead);;
 }
 
 .footer__mail,
@@ -146,3 +141,32 @@ body {
     color: var(--color-description);
 }
 /*=============== END FOOTER ===============*/
+
+
+/*================== MENU ==================*/
+.menu__buttons-list-item-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+    }
+/*================== END MENU ==================*/
+
+/*================== PROJECTS ==================*/
+.projects-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.000;
+    letter-spacing: 0.06em;
+    color: var(--color-title);
+}
+
+.projects-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--color-description);
+}
+/*================== END PROJECTS ==================*/
