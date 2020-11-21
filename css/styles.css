@@ -13,8 +13,8 @@ body {
 }
 
 /*=============== COMPONENTS ===============*/
-.nav__list-link-item:hover,
-.nav__list-link-item:focus,
+.nav__list-item:hover,
+.nav__list-item:focus,
 .address__tel:hover,
 .address__tel:focus,
 .address__mail:hover,
@@ -24,7 +24,7 @@ body {
     color: var(--accent-color);
 }
 
-.nav__list-link-item,
+.nav__list-item,
 .address__mail,
 .address__tel {
     font-style: normal;
@@ -32,6 +32,7 @@ body {
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--color-description);
 }
 
@@ -42,7 +43,8 @@ body {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.192; 
+    line-height: 1.192;
+    text-decoration: none; 
 }
 
 .logo-blue {
@@ -57,6 +59,20 @@ body {
     color: #ffffff;
 }
 
+.nav__list,
+.advantage__list,
+.activities__list,
+.team__list,
+.footer__contacts,
+.projects__buttons-list,
+.projects-list {
+    list-style-type: none;
+}
+
+.nav__list-item-link {
+    text-decoration: none;
+}
+
 /*=============== END HEADER ===============*/
 
 /*=============== HERO ===============*/
@@ -64,6 +80,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
+    text-transform: uppercase;
     /*color: var(--color-lead);*/
 }
 
@@ -128,7 +145,8 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--color-lead);;
+    color: var(--color-lead);
+    text-decoration: none;
 }
 
 .footer__mail,
@@ -138,13 +156,19 @@ body {
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--color-description);
 }
+
+/*.footer__contacts,
+.footer__contact-item {
+    text-decoration: none;
+}*/
 /*=============== END FOOTER ===============*/
 
 
 /*================== MENU ==================*/
-.menu__buttons-list-item-button {
+.project__buttons-list-item-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
