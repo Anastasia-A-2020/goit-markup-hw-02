@@ -1,0 +1,54 @@
+:root {
+    --accent-color: #2196F3;
+}
+
+/*=============== COMPONENTS ===============*/
+.nav__list-link-item:hover,
+.nav__list-link-item:focus,
+.address__tel:hover,
+.address__tel:focus,
+.address__mail:hover,
+.address__mail:focus {
+    color: var(--accent-color);
+}
+
+.nav__list-link-item,
+.address__tel {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+
+/*=============== END COMPONENTS ===============*/
+
+/*=============== HEADER ===============*/
+.address {
+    font-style: normal;
+}
+
+/*=============== END HEADER ===============*/
+
+/*=============== HERO ===============*/
+.hero__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    /*color: #FFFFFF;*/
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+/*=============== END HERO ===============*/
+
+/*=============== DISCRIPTION ===============*/
+
+
+/*=============== END DISCRIPTION ===============*/
