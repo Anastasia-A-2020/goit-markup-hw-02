@@ -1,5 +1,11 @@
 :root {
     --accent-color: #2196F3;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
 }
 
 /*=============== COMPONENTS ===============*/
@@ -14,7 +20,6 @@
 
 .nav__list-link-item,
 .address__tel {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
@@ -24,6 +29,25 @@
 /*=============== END COMPONENTS ===============*/
 
 /*=============== HEADER ===============*/
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192; 
+}
+
+.logo-blue {
+    color: #2196F3;
+}
+
+.logo-black {
+    color: #000000;
+}
+
+.logo-white {
+    color: #ffffff;
+}
+
 .address {
     font-style: normal;
 }
@@ -32,7 +56,6 @@
 
 /*=============== HERO ===============*/
 .hero__title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
@@ -40,7 +63,6 @@
 }
 
 .button {
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
