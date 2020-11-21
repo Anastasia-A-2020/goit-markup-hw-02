@@ -1,11 +1,14 @@
 :root {
     --accent-color: #2196F3;
+    --color-title: #212121;
+    --color-description: #757575;
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
     font-family: var(--main-font);
+    font-style: normal;
 }
 
 /*=============== COMPONENTS ===============*/
@@ -14,7 +17,9 @@ body {
 .address__tel:hover,
 .address__tel:focus,
 .address__mail:hover,
-.address__mail:focus {
+.address__mail:focus,
+.footer__mail:hover,
+.footer__mail:focus {
     color: var(--accent-color);
 }
 
@@ -48,8 +53,14 @@ body {
     color: #ffffff;
 }
 
-.address {
+.address__mail,
+.address__tel {
     font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--color-description);
 }
 
 /*=============== END HEADER ===============*/
@@ -71,6 +82,67 @@ body {
 /*=============== END HERO ===============*/
 
 /*=============== DISCRIPTION ===============*/
+.advantage__list-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-title);
+}
 
-
+.advantage__list-item-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--color-description);
+}
 /*=============== END DISCRIPTION ===============*/
+
+/*=============== ACTIVITIES ===============*/
+.aboutus__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+/*=============== END ACTIVITIES ===============*/
+
+/*=============== TEAM ===============*/
+.team__list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+    color: var(--color-title);
+}
+.team__list-item-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--color-description);
+}
+/*=============== END TEAM ===============*/
+
+/*=============== FOOTER ===============*/
+.location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer__mail,
+.footer__tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--color-description);
+}
+/*=============== END FOOTER ===============*/
